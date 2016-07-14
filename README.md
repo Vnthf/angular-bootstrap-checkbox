@@ -1,3 +1,6 @@
+This repo fork from angular-bootstrap-checkbox.
+It is able to selcet check box color 
+
 angular-bootstrap-checkbox
 ==========================
 
@@ -34,6 +37,8 @@ Add "ui.checkbox" to your modules list. Then you can use it like AngularJS input
     ng-change="onChange()"          (Optional)
     indeterminate="true"            (Optional)
     ng-indeterminate-value="test"   (Optional)
+    color="#448d44"                 (Optional)
+    bg-color="#398439"              (Optional)
 ></checkbox>
 ```
 
