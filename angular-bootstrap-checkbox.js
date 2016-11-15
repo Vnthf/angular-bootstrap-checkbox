@@ -42,8 +42,8 @@ angular.module("ui.checkbox", []).directive("checkbox", function() {
 		                }, function(newVal) {
 		                    if(newVal) {
 		                        scope.stylebtn['color'] = attrs.color;
-		                        scope.stylebtn['background-color'] = attrs.bgColor;
-		                        scope.stylebtn['border-color'] = attrs.color;
+		                        scope.stylebtn['background-color'] = attrs.bgColor || attrs.color;
+		                        scope.stylebtn['border-color'] = attrs.borderColor || attrs.color;
 		                    }
 		                });
 		                
